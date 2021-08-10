@@ -1,0 +1,14 @@
+html{
+    background-color:black;
+    display: flex;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
