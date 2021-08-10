@@ -1,14 +1,34 @@
-html{
+html {
     background-color:black;
     display: flex;
+    font-family: 'Staatliches', cursive;
 }
 
-img{
-    height: 300px;
-    width: 300px;
-}
+.wrapper {
+	/* Activate grid layout */
+	display: grid;
 
-.column {
-    flex: 33.33%;
-    padding: 5px;
+	/* Create 5 columns, each 1 "fractional unit" wide */
+	grid-template-columns: repeat(5, 1fr);
+
+	/* Create 5 rows, each 1 "fractional unit" high */
+	grid-template-rows: repeat(5, 1fr);
+
+	/* Add a 10px gap between columns and rows */
+	grid-gap: 10px;
   }
+
+img {
+    height: 285px;
+    width: 325px;
+    display: inline-block;
+    margin: 25px 10px;
+}
+
+.nome-campeao {
+    color: cornsilk;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+
+}
