@@ -23,6 +23,18 @@ html {
 	grid-gap: 10px;
   }
 
+ul {
+    color: white;
+    list-style-type: none; /* o tipo de estilo da lista é NADA */
+    font-size: 36px;
+    margin-right: 20px;
+
+}
+
+li {
+    display: inline; /* de que forma queremos exibir a nossa barra de navegação? EM LINHA */
+}
+
 img {
     height: 285px;
     width: 325px;
