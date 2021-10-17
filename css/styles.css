@@ -73,15 +73,3 @@ img {
     padding: 10px 0;
     position: relative;
 }
-
-.ashe-wrapper {
-    margin: 0 auto;
-    box-sizing: border-box;
-    flex-grow: 1;
-    flex-shrink: 1;
-    max-width: 660px;
-    transition: opacity .5s,transform .5s,visibility .5s;
-    background-image: url(https://universe-meeps.leagueoflegends.com/v1/assets/images/Classic_Ashe_Splash.jpg);
-    background-position: 69.4271% 5.44148%;
-    opacity: 1;
-}
