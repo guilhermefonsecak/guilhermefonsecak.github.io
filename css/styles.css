@@ -3,6 +3,10 @@ html {
     display: flex;
     font-family: 'Staatliches', cursive;
 }
+
+.barra-pesquisa {
+    text-align:center;
+}
  
 .logo img {
     width: 70px;
@@ -28,6 +32,7 @@ ul {
     list-style-type: none; /* o tipo de estilo da lista é NADA */
     font-size: 36px;
     margin-right: 20px;
+    text-align: center;
 
 }
 
