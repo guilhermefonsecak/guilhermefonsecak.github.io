@@ -27,12 +27,12 @@
         </ul>
 
     <div class="barra-pesquisa">
-     <input type="text" placeholder="Digite o nome do campeão" size="30"> </input>
-     <input type="button" value="Pesquisar" onclick="alerta()">
+     <input type="text" id="meu_input" onkeyup="filtroDePesquisaPorCampeao()" placeholder="Digite o nome do campeão" size="30"> </input>
+     <input type="button" value="Pesquisar">
 
     </div>
  
-    <div class="wrapper">
+    <div class="wrapper" id="divHeroes">
 
         <div class="hero">
             <h3 class="nome-campeao">Aatrox </h3>
